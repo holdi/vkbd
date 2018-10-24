@@ -4,7 +4,10 @@
  *
  * \sa file://DumpMessage.h
  */
-
+// ********************************************************************
+// modified : 24.10.2018 -	r.s.
+//							nur optische Pflege.
+// ********************************************************************
 // Header Files
 #ifdef _WIN32
 #include <windows.h>
@@ -49,64 +52,64 @@ void DumpMessage (Message * message)
     switch (message->MessageType)
     {
         case EnableMessageType:
-            DumpEnableMessage (message);
-        break;
+								DumpEnableMessage (message);
+								break;
 
         case DisableMessageType:
-            DumpDisableMessage (message);
-        break;
+								DumpDisableMessage (message);
+								break;
 
-        case OperationModesMessageType:
-            DumpOperationModesMessage (message);
-        break;
+		case OperationModesMessageType:
+							    DumpOperationModesMessage (message);
+								break;
 
         case ResolutionMessageType:
-            DumpResolutionMessage (message);
-        break;
+						        DumpResolutionMessage (message);
+							    break;
 
         case ReverseTouchActiveAreaMessageType:
-            DumpReverseTouchActiveArea (message);
-        break;
+					            DumpReverseTouchActiveArea (message);
+						        break;
 
         case TouchActiveAreaMessageType:
-            DumpTouchActiveArea (message);
-        break;
+						        DumpTouchActiveArea (message);
+							    break;
 
         case TouchMessageType:
-            DumpTouchMessage (message);
-        break;
+						        DumpTouchMessage (message);
+							    break;
 
         case McuUniqueIdentifierMessageType:
-            DumpMcuUniqueIdentifier(message);
-         break;
+								DumpMcuUniqueIdentifier(message);
+								break;
 
         case NumberOfTrackedObjectsMessageType:
-            DumpNumberOfTrackedObjectsMessage (message);
-        break;
+								DumpNumberOfTrackedObjectsMessage (message);
+								break;
 
         case FingerFrequencyMessageType:
-            DumpFingerFrequencyMessage (message);
-        break;
+								DumpFingerFrequencyMessage (message);
+								break;
 
         case IdleFrequencyMessageType:
-            DumpIdleFrequencyMessage (message);
-        break;
+								DumpIdleFrequencyMessage (message);
+								break;
 
         case DetectedObjectSizeRestrictionMessageType:
-            DumpDetectedObjectSizeRestrictionMessage (message);
-        break;
+								DumpDetectedObjectSizeRestrictionMessage (message);
+								break;
 
         case OffsetMessageType:
-            DumpOffsetMessage (message);
-        break;
+								DumpOffsetMessage (message);
+								break;
 
         case HidDisplaySizeMessageType:
-            DumpHidDisplaySizeMessage (message);
-        break;
+								DumpHidDisplaySizeMessage (message);
+								break;
 
         default:
-            printf ("Unknown Message received!\n");
-        break;
+								printf ("Unknown Message received!\n");
+								break;
     }
 
 }
@@ -118,17 +121,14 @@ static void DumpEnableMessage (Message * message)
 
     printf ("Enable Message received.\n");
 
-    if (message->Error)
-    {
+    if (message->Error) {
         DumpMessageError (message);
     }
-    else
-    {
+    else {
         printf ("  Enabled: %s.\n", enableMessage->Enabled ? "Yes" : "No");
         printf ("  Continuous: %s.\n", enableMessage->ContinuousMode ? "Yes" : "No");
         printf ("  NumberOfMessages: %d.\n", enableMessage->NumberOfMessages);
     }
-
 }
 
 static void DumpMcuUniqueIdentifier(Message * message)
@@ -141,8 +141,7 @@ static void DumpMcuUniqueIdentifier(Message * message)
     {
         DumpMessageError (message);
     }
-    else
-    {
+    else {
         printf("Mcu Unique Identifier is: ");
         for (uint32_t i = 0; i < mcuUniqueIdentifierMessage->BufferSize; i++)
         {
@@ -159,14 +158,9 @@ static void DumpDisableMessage (Message * message)
     printf ("Disable Message received.\n");
 
     if (message->Error)
-    {
         DumpMessageError (message);
-    }
     else
-    {
         printf ("  Disabled: %s.\n", disableMessage->Disabled ? "Yes" : "No");
-    }
-
 }
 
 static void DumpOperationModesMessage (Message * message)
@@ -239,8 +233,7 @@ static void DumpResolutionMessage (Message * message)
         DumpMessageError (message);
     }
 
-    if (resolutionMessage->HasX || resolutionMessage->HasY ||
-        resolutionMessage->HasZ)
+    if (resolutionMessage->HasX || resolutionMessage->HasY || resolutionMessage->HasZ)
     {
         if (resolutionMessage->HasX)
         {
@@ -257,8 +250,7 @@ static void DumpResolutionMessage (Message * message)
             printf ("Y: %8d", resolutionMessage->Y);
         }
 
-        if (resolutionMessage->HasZ &&
-            (resolutionMessage->HasX || resolutionMessage->HasY))
+        if (resolutionMessage->HasZ && (resolutionMessage->HasX || resolutionMessage->HasY))
         {
             printf (", ");
         }
@@ -269,7 +261,6 @@ static void DumpResolutionMessage (Message * message)
         }
 
     }
-
     printf (".\n");
 }
 
