@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['platformdevice',['PlatformDevice',['../structPlatformDevice.html',1,'PlatformDevice'],['../zForceTypes_8h.html#a1b3c0da29612f8cc1af50fb3fd9265f6',1,'PlatformDevice():&#160;zForceTypes.h']]],
+  ['platformdevice_2eh',['PlatformDevice.h',['../PlatformDevice_8h.html',1,'']]],
+  ['platformdevice_5fnew',['PlatformDevice_New',['../PlatformDevice_8h.html#a43f6abded87d9e2e41f2cfa19b9edaf1',1,'PlatformDevice.h']]],
+  ['plusdevice',['PlusDevice',['../structPlusDevice.html',1,'PlusDevice'],['../zForceTypes_8h.html#a94e4c686406c1b1ecea8453abb00270a',1,'PlusDevice():&#160;zForceTypes.h']]],
+  ['plusdevice_2eh',['PlusDevice.h',['../PlusDevice_8h.html',1,'']]],
+  ['plusdevice_5fnew',['PlusDevice_New',['../PlusDevice_8h.html#aebbe7b735a68d580d11a0ec8a3ed352e',1,'PlusDevice.h']]],
+  ['portraitorientation',['PortraitOrientation',['../zForceTypes_8h.html#af123da5aff346fecddbac6cc63fc153baf406ffabcedb2b03dd7886035c981207',1,'zForceTypes.h']]],
+  ['pressure',['Pressure',['../structTouchMessage.html#aec7da050da519c65cedeb466b9a9522a',1,'TouchMessage']]],
+  ['private',['Private',['../structAsn1Protocol.html#aca426cc73cc44377e60aa6aa1acff12e',1,'Asn1Protocol::Private()'],['../structHidPipeTransport.html#a93073209cb6105c8c0d9bf7ae3f0afbc',1,'HidPipeTransport::Private()']]],
+  ['privateprotocoldata',['PrivateProtocolData',['../structDevice.html#ab242dda0a00d21ea50ef15cb4f9fc6e4',1,'Device']]],
+  ['protocol',['Protocol',['../structProtocol.html',1,'Protocol'],['../structAsn1Protocol.html#a6ef2f0e6479618e36eb2cae67af4f3b2',1,'Asn1Protocol::Protocol()'],['../structConnection.html#a0dca8758fdfb38abee4dd058f50e6759',1,'Connection::Protocol()'],['../Protocol_8h.html#ae83afaccdb42c64b8528556d9f29525d',1,'Protocol():&#160;Protocol.h'],['../zForceTypes_8h.html#ae83afaccdb42c64b8528556d9f29525d',1,'Protocol():&#160;zForceTypes.h']]],
+  ['protocol_2eh',['Protocol.h',['../Protocol_8h.html',1,'']]],
+  ['protocol_5faddprotocol',['Protocol_AddProtocol',['../Protocol_8h.html#a514149c4671b2c42d16317bc51df657d',1,'Protocol.h']]],
+  ['protocol_5fgetinstance',['Protocol_GetInstance',['../Protocol_8h.html#a1fbbeb3e98b1ce4e7afa45da8fdbeedf',1,'Protocol.h']]],
+  ['protocol_5finitialize',['Protocol_Initialize',['../Protocol_8h.html#abbc5be4aff58118c4b05a468553bbbb9',1,'Protocol.h']]],
+  ['protocol_5funinitialize',['Protocol_Uninitialize',['../Protocol_8h.html#abdaa349f7a8369161bbd298f0b264fa1',1,'Protocol.h']]],
+  ['protocolentry',['ProtocolEntry',['../zForceTypes_8h.html#a7398708e37aeaff80a0e065d9df55a33',1,'zForceTypes.h']]]
+];

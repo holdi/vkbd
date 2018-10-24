@@ -1,0 +1,5 @@
+<map id="SensorDevice" name="SensorDevice">
+<area shape="rect" id="node2" href="$structReverseTouchActiveArea.html" title="This structure represents whether the Touch Active Area coordinates are reversed or not..." alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node3" href="$structCartesianCoordinates.html" title="Struct representing a coordinate. " alt="" coords="207,5,367,32"/>
+<area shape="rect" id="node4" href="$structTouchActiveArea.html" title="This structure represents the Touch Active Area of a sensor. " alt="" coords="392,5,519,32"/>
+</map>

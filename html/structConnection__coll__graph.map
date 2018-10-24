@@ -1,0 +1,9 @@
+<map id="Connection" name="Connection">
+<area shape="rect" id="node4" href="$structDevice.html" title="Brief Device base class. " alt="" coords="450,407,516,433"/>
+<area shape="rect" id="node5" href="$structTransport.html" title="Transport struct. This structure represents the base class of all Transport definitions. " alt="" coords="78,672,160,699"/>
+<area shape="rect" id="node6" href="$structDataFrame.html" title="Struct containing the DataFrame information. " alt="" coords="332,407,426,433"/>
+<area shape="rect" id="node8" href="$structProtocol.html" title="This structure represents the base class of all protocol definitions. " alt="" coords="719,672,794,699"/>
+<area shape="rect" id="node2" href="$structzForce.html" title="Main struct. " alt="" coords="311,95,375,121"/>
+<area shape="rect" id="node7" href="$structQueue.html" title="The Queue struct. " alt="" coords="311,184,375,211"/>
+<area shape="rect" id="node3" href="$structOsAbstractionLayer.html" title="Overrides for OS Functions. " alt="" coords="270,5,416,32"/>
+</map>

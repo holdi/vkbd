@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['senddataframe',['SendDataFrame',['../structConnection.html#a52a76013e503d24b3888bef6b6219d25',1,'Connection']]],
+  ['sensordevice',['SensorDevice',['../structAirDevice.html#ae38fefa5661ba7f4a667683788fdd9fb',1,'AirDevice::SensorDevice()'],['../structCoreDevice.html#a75de8f9795a5b0dd8b89c401a2b8544b',1,'CoreDevice::SensorDevice()'],['../structPlusDevice.html#abad0a71a68cdf7e325b90cfb12a1d951',1,'PlusDevice::SensorDevice()']]],
+  ['serialnumber',['SerialNumber',['../structMessage.html#ab2d8b0a5a7d3df7ab7551100e3557948',1,'Message']]],
+  ['setdetectedobjectsizerestriction',['SetDetectedObjectSizeRestriction',['../structSensorDevice.html#a3b8723832d0e213018f7d4cbcc23d349',1,'SensorDevice']]],
+  ['setdisable',['SetDisable',['../structSensorDevice.html#ae18ccaae2189c1491f9e917259ce2bf5',1,'SensorDevice']]],
+  ['setenable',['SetEnable',['../structSensorDevice.html#a5b966045c6b199a7dc3d746e4071e835',1,'SensorDevice']]],
+  ['setfingerfrequency',['SetFingerFrequency',['../structPlatformDevice.html#ac9edd378672ab2dccd3499002027e5e3',1,'PlatformDevice']]],
+  ['sethiddisplaysize',['SetHidDisplaySize',['../structSensorDevice.html#ab10b9a878a1cdc742a2fa89739faf69d',1,'SensorDevice']]],
+  ['setidlefrequency',['SetIdleFrequency',['../structPlatformDevice.html#a0a109f8020c1f5cdad8bc788f1f314bc',1,'PlatformDevice']]],
+  ['setmcuuniqueidentifier',['SetMcuUniqueIdentifier',['../structPlatformDevice.html#ae8a4a7c488749089c76268787a28d562',1,'PlatformDevice']]],
+  ['setmessagefilter',['SetMessageFilter',['../structConnection.html#a4bba6eb6fa893a8ec55fcd86fa78f8cc',1,'Connection']]],
+  ['setnumberoftrackedobjects',['SetNumberOfTrackedObjects',['../structSensorDevice.html#a0dd776df80dedc816bd80487d7489a8b',1,'SensorDevice']]],
+  ['setoffset',['SetOffset',['../structSensorDevice.html#a22bb3f30854910a17f45b06d93ce1dfa',1,'SensorDevice']]],
+  ['setoperationmodes',['SetOperationModes',['../structSensorDevice.html#aa70da37ad922587116b3b65d36c90c76',1,'SensorDevice']]],
+  ['setresolution',['SetResolution',['../structSensorDevice.html#a206ccc4167efae9f2b7eb33864f05fb7',1,'SensorDevice']]],
+  ['setreversetouchactivearea',['SetReverseTouchActiveArea',['../structSensorDevice.html#aeca1d54106dab426f4cf1ace9e20b317',1,'SensorDevice']]],
+  ['settimeout',['SetTimeout',['../structConnection.html#a070d87f1e990f9bff4648a393dc05d29',1,'Connection']]],
+  ['settouchactivearea',['SetTouchActiveArea',['../structSensorDevice.html#afec9370fb06505b686958af3a4a5ccba',1,'SensorDevice']]],
+  ['signalconnectionestablished',['SignalConnectionEstablished',['../structConnection.html#a810386e8ccf7e38f013826bdffe76884',1,'Connection']]],
+  ['sizex',['SizeX',['../structHidDisplaySizeMessage.html#acbd70dd66cee7c7ab066e4f05f0b174e',1,'HidDisplaySizeMessage::SizeX()'],['../structTouchMessage.html#ac9bab6bb2c2c6ba260a867c5517106c0',1,'TouchMessage::SizeX()']]],
+  ['sizey',['SizeY',['../structHidDisplaySizeMessage.html#aa5dc015e1540d972b6af3a5fb420dc1c',1,'HidDisplaySizeMessage::SizeY()'],['../structTouchMessage.html#aaa0914b505a1d22935d01ed16447cb19',1,'TouchMessage::SizeY()']]],
+  ['sizez',['SizeZ',['../structTouchMessage.html#a92e02fbcf198040bdb601dbab1b5038e',1,'TouchMessage']]],
+  ['sleep',['Sleep',['../structOsAbstractionLayer.html#a57e6d2408684d68187c08e16eaa7babb',1,'OsAbstractionLayer']]],
+  ['storagedevices',['StorageDevices',['../structDevice.html#a23b760b955e6e8a6b98f2903279e7eed',1,'Device']]]
+];
